@@ -1,0 +1,9 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+authors = ["luozijun <luozijun.assistant@gmail.com>"]
+
+
+[dependencies]
+hello_world_derive = { path = "./hello_world_derive" }
+

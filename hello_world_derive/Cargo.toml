@@ -1,0 +1,11 @@
+[package]
+name = "hello_world_derive"
+version = "0.1.0"
+authors = ["luozijun <luozijun.assistant@gmail.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "0.14.9", features = ["default", "extra-traits"] }
+quote = "0.6"
